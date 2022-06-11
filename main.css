@@ -110,9 +110,7 @@ h2{
 .container-project ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 0 auto;
-    margin-top: 50px;
-    max-width: 80%;
+    
 
 }
 .container-project ul li img{
@@ -127,6 +125,18 @@ h2{
 .container-project h2{
     padding-top: 70px;
     color:#cecece;
+}
+.container-project i{
+    color: #000;
+    font-size: 30px;
+}
+.container-slider{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 80%;
+    justify-content: center;
 }
 footer{
     height: 150px;
@@ -179,7 +189,9 @@ footer a{
     color: #272525;
     text-decoration: none;
 }
-
 i:hover{
+    cursor: pointer;
+}
+footer i:hover{
     color: #323232;
 }
