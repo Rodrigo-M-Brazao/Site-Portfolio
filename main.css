@@ -11,7 +11,7 @@ body{
 #logo{
     width: 185px;
     height: 95px;
-    background-image: url(/imgs/logo.svg);
+    background-image: url(imgs/logo.svg);
     background-repeat: no-repeat;
     background-size: 300px 100px;
     background-size: cover;
