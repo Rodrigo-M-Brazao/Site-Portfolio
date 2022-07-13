@@ -272,6 +272,9 @@ footer i:hover{
         width: 200px;
         height: 200px;
     }
+    .container-skills ul li{
+        max-width: 80%;
+    }
 }
 
 @media (max-width: 500px) {
@@ -327,9 +330,10 @@ footer i:hover{
         margin: 0 5px;
     }
     .container-slider ul li img{
-        /* width: 100px;
-        height: 100px; */
         width: 100%;
         height: 100%;
+    }
+    .container-skills ul{
+        max-width: 80%;
     }
 }
