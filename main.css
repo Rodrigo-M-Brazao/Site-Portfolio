@@ -337,7 +337,7 @@ footer i:hover{
     .container-skills ul{
         max-width: 80%;
     }
-    .fa-star{
+    i .fa-star{
         font-size: 16px;
     }
 }
