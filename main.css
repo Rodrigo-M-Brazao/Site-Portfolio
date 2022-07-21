@@ -275,6 +275,7 @@ footer i:hover{
     .container-skills ul li{
         max-width: 80%;
     }
+    
 }
 
 @media (max-width: 500px) {
@@ -335,5 +336,8 @@ footer i:hover{
     }
     .container-skills ul{
         max-width: 80%;
+    }
+    .fa-star{
+        font-size: 16px;
     }
 }
