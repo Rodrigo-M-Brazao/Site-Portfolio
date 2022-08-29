@@ -92,7 +92,7 @@ h2{
     font-weight: bold;
     border: 3px solid rgb(236, 228, 228);;
     position: absolute;
-    top: 47%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -182,7 +182,7 @@ h2{
     text-align: center;
     align-items: center;
     justify-content: space-between;
-    max-width: 45%;
+    max-width: 60%;
     margin: 0 auto;
     padding: 10px 0;
 }
