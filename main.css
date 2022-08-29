@@ -279,6 +279,9 @@ footer i:hover{
 }
 
 @media (max-width: 500px) {
+    #section-about{
+        display: none;
+    }
     .menu .logo{
         padding-left: 0px;
         height: 40px;
@@ -310,15 +313,15 @@ footer i:hover{
     }
     
     .container{
-        max-height: 320px;
-        /* top: 110%; */
+        max-height: 400px;
+        top: 35%;
         
     }
     #project{
-        height: 300px;
+        height: 840px;
     }
     .container-project h2{
-        padding-top: 55px;
+        padding-top: 35px;
     }
     .container-slider{
         margin-top: 30px;
@@ -326,18 +329,27 @@ footer i:hover{
     }
     .container-slider ul{
         margin-right: 15px;
+        grid-template-columns: auto;
     }
     .container-slider ul li{
-        margin: 0 5px;
+        margin: 10px 5px;
     }
     .container-slider ul li img{
-        width: 100%;
+        width: 80%;
         height: 100%;
+    }
+    #skill-section .skills{
+        height: 450px;
     }
     .container-skills ul{
         max-width: 80%;
+        
+    }
+    .container-skills ul li{
+        max-width: 100%;
+        margin: 10px 0;
     }
     i .fa-star{
-        font-size: 16px;
+        font-size: 16px!important;
     }
 }
